@@ -1,2 +1,2 @@
 # amth_300  
-$\prod (x)$
+$\prod _1 (x)$
