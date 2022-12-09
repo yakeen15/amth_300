@@ -1,2 +1,2 @@
 # amth_300  
-$\sum_{i}^{j}x$
+<img src="https://render.githubusercontent.com/render/math?math={\color{black} \sum_{d=0}^{d_{max}}}">
