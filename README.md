@@ -36,12 +36,12 @@ But what could we do if we wanted to know the form of the polynomial? Would it b
 **Inputs** : Number of points *n*, *n* ordered pairs of points $(x_i,y_i)$
 
 Step 1: Accept inputs  
-Step 2: Create empty polynomial vector *v*=<0>
+Step 2: Create empty polynomial vector *v*=<0>  
 Step 3: Enter a loop with *i*=0 upto n  
-Step 4: Create a variable that will hold the denominator of the $L_i$ functions, *p*=1, also create a empty polynomial vector object that, *vec*=<0> 
+Step 4: Create a variable that will hold the denominator of the $L_i$ functions, *p*=1, also create a empty polynomial vector object that will contain the numerator of the $L_i$ functions, *vec*=<0> 
 Step 5: Enter a loop with *j*=0 upto n  
 Step 6: If *i*=*j*, go to Step 8    
 Step 7: Else, set *p*=p / $(x_i-x_j)$ and *vec*=*vec*$\times (x-x_j)$  
 Step 8: Increment *j* and go to Step 6  
-Step 9: Set *v*=*v*+*p*$\times$*vec*  
+Step 9: Set *v*=*v*+*p*$\times$*vec*$\times y_i$  
 Step 10: Increment *i* and go to Step 4 
