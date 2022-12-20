@@ -37,7 +37,8 @@ But what could we do if we wanted to know the form of the polynomial? Would it b
 
 Step 1: Accept inputs  
 Step 2: Enter a loop with *i*=0 upto n  
-Step 3: Create a variable that will hold the denominator of the $L_i$ functions, *p*=1  
+Step 3: Create a variable that will hold the denominator of the $L_i$ functions, *p*=1, also create a empty polynomial vector object that, *vec*=<0> 
 Step 4: Enter a loop with *j*=0 upto n  
-Step 5: if *i*=*j*, increment *j* and return to Step 5  
-Step 6: else, set *p*=p/ $(x_i-x_j)$  
+Step 5: If *i*=*j*, increment *j* and return to Step 5  
+Step 6: Else, set *p*=p / $(x_i-x_j)$ abd *vec*=*vec*$\times (x-x_j)$
+Step 7: 
